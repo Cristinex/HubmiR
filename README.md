@@ -1,6 +1,6 @@
 # SiCmiR
 
-Predicting miRNA Expression Level in Single-Cell Clusters for hub-miRNA Discovery
+Predicting miRNA Expression Level in Single-Cell Clusters for hub-miRNA Discovery. Online application is deposited at https://awi.cuhk.edu.cn/~SicmiR/
 
 ## Usage
 
