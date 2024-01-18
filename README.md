@@ -1,12 +1,12 @@
-# SiCmiR
+# HubmiR
 
-Predicting miRNA Expression Level in Single-Cell Clusters for hub-miRNA Discovery. Online application is deposited at https://awi.cuhk.edu.cn/~SicmiR/
+Predicting miRNA Expression Level in Single-Cell Clusters for hub-miRNA Discovery. Online application is deposited at https://awi.cuhk.edu.cn/~HubmiR/
 
 ## Usage
 
 ## Dependency
 
-The following packages are required for running SiCmiR:
+The following packages are required for running HubmiR:
 
 ```
 R
@@ -22,7 +22,7 @@ sys, torch, torch.nn, numpy, pandas, sklearn.model_selection
 
 ## Command
 
-- Step1: Process the input data `location/for/Rscript /location/for/package/SiCmiR/script/input_processing.R args[1]  args[2] args[3] `.
+- Step1: Process the input data `location/for/Rscript /location/for/package/HubmiR/script/input_processing.R args[1]  args[2] args[3] `.
 		
     - ALL Parameters should be quoted by "" or ''.
 	
@@ -35,7 +35,7 @@ sys, torch, torch.nn, numpy, pandas, sklearn.model_selection
 	
 
 
-- Step2: Input the processed data into SiCmiR for miRNA expression profile prediction `location/for/python /location/for/package/SiCmiR/script/DNN.py args[4] `.
+- Step2: Input the processed data into HubmiR for miRNA expression profile prediction `location/for/python /location/for/package/HubmiR/script/DNN.py args[4] `.
 		
 	- ALL Parameters should be quoted by "" or ''.
 	- parameter `args[4]` Same directory as `args[3]` where the processed file(s) was(were) stored. End with "/".
